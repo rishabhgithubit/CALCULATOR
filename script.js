@@ -29,9 +29,9 @@ document.querySelectorAll("button").forEach(b => {
             d.value += "Math.PI(";
         else if (x === "e")
             d.value += "Math.E(";
-        else if (x === "√") {
+        else if (x === "√") 
             d.value += "√(";
-   
+      
 
 
 
@@ -41,4 +41,5 @@ document.querySelectorAll("button").forEach(b => {
     };
 
 });
+
 
